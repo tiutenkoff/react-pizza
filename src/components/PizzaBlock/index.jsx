@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import classNames from 'classnames'
-import PropTypes from 'prop-types'
+import React, { useState } from 'react';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+
 
 function PizzaBlock({ name, imageUrl, price, types, sizes }) {
     const availableNames= ['тонкое', 'традиционное'];
@@ -16,6 +17,7 @@ function PizzaBlock({ name, imageUrl, price, types, sizes }) {
         setActiveSize(index);
     };
 
+  
     return (
         <div className="pizza-block">
             <img
