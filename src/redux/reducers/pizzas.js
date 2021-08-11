@@ -5,15 +5,22 @@ const initialState = {
 };
 
 const pizzas = (state = initialState, action) => {
-     switch (action.type) {
-         case 'SET_PIZZAS':
-             return {
-                 ...state,
-                 items: action.payload,
-                 isLoaded: true,
-             };
-         default:
-             return state;
+    const { type, payload } = action;
+
+    switch (type) {
+        case 'SET_PIZZAS':
+            return {
+                ...state,
+                items: payload,
+                isLoaded: true,
+            };
+        case 'SET_LOADED':
+            return {
+                ...state,
+                isLoaded: payload,
+            };
+        default:
+            return state;
     };
 }
 

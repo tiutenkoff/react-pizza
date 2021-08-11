@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Route } from 'react-router-dom';
 
 import { Header } from './components';
@@ -19,4 +19,4 @@ function App() {
 
 export default App;
 
-// Таймкод: #8, 36:03
+// Таймкод: #9, начало
