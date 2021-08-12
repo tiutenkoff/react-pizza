@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 
 import { Header } from './components';
 import { Home, Cart } from './pages';
-
+ 
 function App() {
   
   return (
@@ -19,4 +19,4 @@ function App() {
 
 export default App;
 
-// Таймкод: #9, 20:06
+// Таймкод: #9, 50:04
