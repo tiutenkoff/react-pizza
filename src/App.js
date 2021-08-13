@@ -19,4 +19,4 @@ function App() {
 
 export default App;
 
-// Таймкод: #9, 50:04
+// Таймкод: #10, начало
