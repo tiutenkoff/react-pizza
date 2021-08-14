@@ -18,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-// Таймкод: #10, начало
